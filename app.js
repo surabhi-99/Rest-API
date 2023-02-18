@@ -15,7 +15,7 @@ app.use("/api/products", products_routes);
 const start = async() => {
     try{
         app.listen(PORT, () => {
-            console.log(`${PORT} Yes I am connected`);
+            console.log(`${PORT} I am connected`);
         });
     } catch(error){
             console.log(error);
